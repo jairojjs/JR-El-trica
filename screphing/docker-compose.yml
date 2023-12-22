@@ -1,0 +1,9 @@
+version: '3'
+
+service:
+database:
+imagem: 'postgres: latest'
+
+ports:
+- 5432:5432
+
